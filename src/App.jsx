@@ -21,6 +21,21 @@ const apps = [
     status: 'Live',
   },
   {
+    name: 'DocsRef',
+    tagline: 'Medical reference, fast.',
+    description: 'A searchable, personal online reference covering internal medicine, cardiology, pharmacology, and more.',
+    url: 'https://www.docsref.com',
+    color: 'from-amber-500 to-orange-600',
+    shadow: 'shadow-amber-500/20',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+      </svg>
+    ),
+    pills: ['Searchable', 'Cardiology', 'Pharmacology'],
+    status: 'Live',
+  },
+  {
     name: 'EvalFlow',
     tagline: 'Rotation evaluations, streamlined.',
     description: 'Clean, simple evaluation forms for rotation feedback and milestone tracking. No more fighting with clunky legacy systems.',
@@ -123,7 +138,7 @@ export default function App() {
 
       {/* Apps grid */}
       <main className="flex-1 px-6 pb-20">
-        <div className="max-w-5xl mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="max-w-5xl mx-auto grid gap-6 md:grid-cols-2">
           {apps.map((app) => (
             <AppCard key={app.name} app={app} />
           ))}
