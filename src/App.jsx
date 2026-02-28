@@ -46,6 +46,27 @@ const apps = [
     status: 'Live',
   },
   {
+    name: 'CalcCode',
+    tagline: 'Calculators at your fingertips.',
+    description: 'Instant bedside calculations built for a variety of cardiac needs - from the cath lab to the ICU.',
+    url: 'https://calccode.imteched.com',
+    color: 'from-violet-500 to-purple-600',
+    accent: 'text-violet-400',
+    accentBg: 'bg-violet-500/10 border-violet-500/20',
+    cardBg: 'bg-violet-500/[0.04]',
+    cardBorder: 'border-violet-500/15 hover:border-violet-500/30',
+    lightCardBg: 'bg-violet-50',
+    lightCardBorder: 'border-violet-200/60 hover:border-violet-300',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <rect x="4" y="2" width="16" height="20" rx="2" />
+        <path d="M8 6h8M8 10h8M8 14h4" />
+      </svg>
+    ),
+    pills: ['Hemodynamics', 'Cardiac Output', 'ICU & Cath Lab'],
+    status: 'Live',
+  },
+  {
     name: 'QuickNote',
     tagline: 'Consult notes in seconds.',
     description: 'Smart templates for common consult types. Fill in key fields and generate formatted, copy-ready notes instantly.',
