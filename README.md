@@ -1,14 +1,15 @@
 # IMTechEd
 
-Open-source medical training tools built by physicians, for physicians. IMTechEd is a landing page hub for educational applications aimed at internal medicine and cardiology fellowship programs.
+Open-source medical training tools built by physicians, for physicians. IMTechEd is a landing page hub for educational applications aimed at internal medicine and cardiology programs.
 
 ## Apps
 
 | App | Status | Description |
 |-----|--------|-------------|
-| **FellowShift** | Live | Fellowship schedule optimization with auto-balanced rotations and ACGME compliance tracking |
 | **DocsRef** | Live | Searchable medical reference for internal medicine, cardiology, and pharmacology |
-| **EvalFlow** | Coming Soon | Streamlined rotation evaluation forms with milestone tracking and PDF export |
+| **FellowShift** | Live | Fellowship schedule optimization with auto-balanced rotations and ACGME compliance tracking |
+| **CalcCode** | Live | Bedside hemodynamic calculators for cardiac output, SVR, PAPI, shock index, MAP, CPO, and more |
+| **QuickNote** | Coming Soon | Smart templates for common consult types with formatted, copy-ready note generation |
 | **JournalClub** | Coming Soon | Journal club organization with presenter scheduling and automated reminders |
 
 ## Tech Stack
